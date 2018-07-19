@@ -102,3 +102,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# unsaved odt files
+*.odt#
+
+# dont save neural network input data
+data/
+
+# dont track tensorboard logs
+logs/
